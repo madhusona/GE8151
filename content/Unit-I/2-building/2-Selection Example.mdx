@@ -1,0 +1,115 @@
+---
+title: "Selection Examples"
+metaTitle: "Building Blocks of Algorithm - Selection Examples"
+metaDescription: "Building Blocks of Algorithm - Selection Examples"
+---
+
+## Find the smallest of given two numbers
+```
+Step 1 : Start
+Step 2 : Read values of two numbers, A and B
+Step 3 : Check whether A is less than B, if the condition is true then  goto step 3.1 else goto step 3.2
+      Step 3.1:print A is the smallest number
+      Step 3.2: print B is the smallest number
+Step 4 : Stop
+```
+
+## Check whether the given number is three digit number or not
+```
+Step 1 : Start
+Step 2 : Read the number, A
+Step 3 : Check whether the given number is greater than 99 and less than 1000, if yes then goto step 3.1 otherwise goto step 3.2
+      Step 3.1: Print the message “The number is a three digit number”
+      Step 3.2: Print the message “The number is not a three digit number”
+Step 4 : Stop
+```
+
+## Check whether the given year is Leap Year or not.
+```
+Step 1 : Start
+Step 2 : Read the value of the year
+Step 3: Check whether the given year is divisible by 4 and not divisible by 100, if yes goto 3.1 otherwise goto 3.2
+           	Step 3.1: print the message “It is Leap year” 
+			Step 3.2: Check whether the given year is divisible by 400, if yes goto 3.2.1 otherwise goto 3.2.2
+ 				Step 3.2.1: print the message “It is Leap year”
+	 			Step 3.2.2: print the message “It is not Leap year”
+Step 4 : Stop
+```
+
+## Calculate purchase amount to be paid after discount. Consider 10 % discount for the Sale amount above 1000.
+```
+Step 1: Start 
+Step 2: Read price
+Step 3: Read quantity
+Step 4: Calculate amount as 
+	Purchase Amount = price * quantity
+Step 5: Check whether amount is greater than or equal to 1000, if yes then goto step 5.1 otherwise goto step 6
+	Step 5.1: Calculate discount as 
+		    	Discount Amount = Purchase Amount * 0.10
+	Step 5.2 : Calculate amount to be paid
+			Paid Amount= amount - discount	
+Step 6: Print the value of amount
+Step 7: Stop
+```
+## Find whether the given number is positive or negative
+```
+Step 1: Start 
+Step 2: Read the number
+Step 3: Check whether number is greater than or equal to zero, if yes then goto step 3.1 otherwise goto step 3.2
+	Step 3.1: Print the message "number is Positive"
+	Step 3.2: Print the message "number is Negative"
+Step 4: Stop
+```
+
+
+
+## Find the given number is odd or even 
+```
+Step 1: Start 
+Step 2: Read the number
+Step 3: Calculate the remainder as
+	remainder = number % 2
+Step 3: Check whether remainder is equal to zero, if yes then goto step 3.1 otherwise goto step 3.2
+	Step 3.1: Print the message "number is Even"
+	Step 3.2: Print the message "number is ODD"
+Step 4: Stop
+```
+## Identify whether the given number is smallest among three numbers 
+```
+Step 1: Start 
+Step 2: Read the num1, num2 and num3
+Step 3: Check whether num1 is less than num2 and also num1 is less than num3, if yes then goto step 3.1  Otherwise check whether num2 is less than num3, 
+	If yes, goto step 3.2 otherwise goto 3.3
+	Step 3.1: Print the message "num1 is lesser"
+	Step 3.2: Print the message "num2 is lesser"
+	Step 3.3: Print the message "num3 is lesser"
+Step 4: Stop
+```
+
+## Read total shopping amount purchased in the shop, and then apply the discount as per the following discount criteria, then find and print the final amount that has to be paid by the customer after subtracting the discount amount:
+
+| Shopping Amount | Discount % |
+| --------------- | ---------- |
+| 5000 and Above	|  25%    |
+| 1000 - 4999 	|  10%    |
+| Below		|  5%     |
+
+
+
+
+```
+Step 1: Start 
+Step 2: Read shopping amount
+Step 3: Check whether shopping amount is greater than or equal to 5000, if yes then goto step 3.1. Otherwise check whether amount is greater than or equal to 1000 and less than 4999,  If yes, goto step 3.2 otherwise goto 3.3
+	Step 3.1: Calculate discount as 
+		        discount = shopping amount * 0.25
+	Step 3.2: Calculate discount as 
+		        discount = shopping amount * 0.10
+	Step 3.3: Calculate discount as 
+		        discount = shopping amount * 0.05
+Step 6: Calculate the final amount
+		Final amount = shopping amount - discount
+Step 7: Display the Final amount
+Step 8: Stop
+```
+

@@ -80,9 +80,10 @@ const Layout = ({ children, location }) => (
         </Content>
         <RightSideBarWidth className={'hiddenMobile'}>
           <RightSidebar location={location} />
-        </RightSideBarWidth>
+        </RightSideBarWidth>        
       </Wrapper>
     </MDXProvider>
+    
   </ThemeProvider>
 );
 

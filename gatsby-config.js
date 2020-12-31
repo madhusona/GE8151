@@ -2,6 +2,7 @@ require("dotenv").config();
 const queries = require("./src/utils/algolia");
 const config = require("./config");
 const plugins = [
+  
   'gatsby-plugin-sitemap',
   'gatsby-plugin-sharp',
   {
@@ -65,7 +66,9 @@ if (config.header.search && config.header.search.enabled && config.header.search
 if (config.pwa && config.pwa.enabled && config.pwa.manifest) {
   plugins.push({
       resolve: `gatsby-plugin-manifest`,
-      options: {...config.pwa.manifest},
+      options: {
+      
+        ...config.pwa.manifest},
   });
   plugins.push({
     resolve: 'gatsby-plugin-offline',
@@ -83,7 +86,8 @@ if (config.gatsby && !config.gatsby.trailingSlash) {
 }
 
 module.exports = {
-  pathPrefix: config.gatsby.pathPrefix,
+ // pathPrefix: config.gatsby.pathPrefix,
+ pathPrefix:"/GE8151",
   siteMetadata: {
     title: config.siteMetadata.title,
     description: config.siteMetadata.description,

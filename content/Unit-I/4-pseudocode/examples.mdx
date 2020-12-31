@@ -1,0 +1,83 @@
+---
+title: "Pseudocode examples"
+---
+
+## Swapping of two numbers without additional variable
+```
+READ a, b
+COMPUTE a=a+b
+COMPUTE  b=a-b
+COMPUTE a=a-b
+PRINT a,b
+```
+
+## Greatest among two numbers
+```
+READ A, B
+IF A>B THEN
+      PRINT “A is the greatest number”
+ELSE 
+      PRINT “B is the greatest number”
+ENDIF
+
+```
+
+## Find the average of first n numbers
+```
+READ n
+SET avg=0, sum=0, i=1
+WHILE i<=n
+     COMPUTE sum=sum+i
+     INCREMENT i=i+1
+END WHILE
+COMPUTE avg=sum/i
+PRINT sum, avg
+
+```
+
+## To find square of a number
+```
+READ num
+CALCULATE square of a number as, square=num*num
+PRINT square
+```
+
+## To calculate the price of a product after adding the sales tax to its original price
+```
+READ the price of the product X
+READ the sales tax rate Y
+CALCULATE sales_tax=X * Y
+CALCULATE final_product_price=X + sales_tax
+PRINT final_product_price
+```
+
+## To check whether the given number is divisible by 7 or not.
+```
+READ number
+IF number MOD 7 = 0 THEN
+              DISPLAY "Number is divisible by 7"
+    ELSE
+              DISPLAY "Number is not divisible by 7"
+END IF
+```
+
+## To check whether the given student is honor student or not based on grade point average and hours completed.
+```
+GET Student Name
+GET Grade Point Average from User
+GET Hours Completed from User
+ IF Grade Point Average is greater than 3.5 THEN
+          IF Hours Completed is greater than or equal to 15 THEN
+                   DISPLAY Student Name “is Honor Student”
+          END IF
+END IF
+```
+## factorial of the given number 
+```
+READ num
+INITIALIZE i=1, FACT=1
+FOR i ← 1 to num 
+     COMPUTE FACT=FACT*i
+ENDFOR 
+PRINT “The Factorial is=” FACT
+```

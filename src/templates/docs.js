@@ -98,7 +98,7 @@ export default class MDXRuntimeTest extends Component {
                 <img src={gitHub} alt={'Github logo'} /> Edit on GitHub
               </Link>
             )}
-          </Edit>
+          </Edit> 
         </div>
         <StyledMainWrapper>
           <MDXRenderer>{mdx.body}</MDXRenderer>
@@ -106,6 +106,30 @@ export default class MDXRuntimeTest extends Component {
         <div className={'addPaddTopBottom'}>
           <NextPrevious mdx={mdx} nav={nav} />
         </div>
+        <StyledMainWrapper>
+          <div>
+            <h2>References</h2>
+            <ul>
+              <li>Allen B. Downey, “Think Python: How to Think Like a Computer Scientist‘‘, 2nd edition,
+Updated for Python 3, Shroff/O‘Reilly Publishers, 2016 (http://greenteapress.com/wp/thinkpython/)</li>
+              <li>Guido van Rossum and Fred L. Drake Jr, ―An Introduction to Python – Revised and
+updated for Python 3.2, Network Theory Ltd., 2011.</li>
+<li> John V Guttag, ―Introduction to Computation and Programming Using Python‘‘, Revised
+and expanded Edition, MIT Press , 2013</li>
+<li>Robert Sedgewick, Kevin Wayne, Robert Dondero, ―Introduction to Programming in
+Python: An Inter-disciplinary Approach, Pearson India Education Services Pvt. Ltd., 2016.</li>
+<li>Timothy A. Budd, ―Exploring Python‖, Mc-Graw Hill Education (India) Private Ltd.,, 2015.
+4. Kenneth A. Lambert, ―Fundamentals of Python: First Programs‖, CENGAGE Learning,
+2012.</li>  
+<li>Charles Dierbach, ―Introduction to Computer Science using Python: A Computational
+Problem-Solving Focus, Wiley India Edition, 2013.</li> 
+<li> Paul Gries, Jennifer Campbell and Jason Montojo, ―Practical Programming: An Introduction
+to Computer Science using Python 3‖, Second edition, Pragmatic Programmers, LLC,
+2013.</li>
+        </ul>
+        
+          </div>
+          </StyledMainWrapper>
       </Layout>
     );
   }
