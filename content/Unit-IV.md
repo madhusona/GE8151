@@ -1,7 +1,8 @@
 ---
 title: "Unit - IV"
-metaTitle: "Syntax Highlighting is the meta title tag for this page"
-metaDescription: "This is the meta description for this page"
+metaTitle: "List Tuple Dictionaries"
+metaDescription: "List Tuple Dictionaries"
 ---
 
-comming soon..
+Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples: tuple assignment, tuple as return value; Dictionaries: operations and methods; advanced list processing - list comprehension; Illustrative programs: selection sort, insertion sort, mergesort, histogram.
+
